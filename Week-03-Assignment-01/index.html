@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Bootstrap E-Commerce Design</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  </head>
+  <body>
+      <!-- NAVBAR START -->
+    <nav class="navbar navbar-expand-lg bg-primary d-flex justify-content-around">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white ms-5" href="#">E-Commerce</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- NAVBAR ROW-RIGHT START -->
+          <div class="navbar row-right me-5">
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active fw-light text-white" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle fw-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Categories
+                        </a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Electronic</a></li>
+                    <li><a class="dropdown-item" href="#">Clothes</a></li>
+                    <li><a class="dropdown-item" href="#">Books</a></li>
+                </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-light" href="#">Contact</a>
+                    </li> 
+                </ul>
+            </div>
+          </div>
+          <!-- NAVBAR ROW-RIGHT END -->
+          
+        </div>
+    </nav>
+    <!-- NAVBAR END -->
+
+    <!-- CAROUSEL START -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/beste-laptop-2022.jpeg" class="d-block w-100" style="height:500px;">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/macbook-pro-touch-bar-main.jpeg" class="d-block w-100" style="height:500px; object-fit: cover;">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- CAROUSEL END -->
+
+      <!-- MAIN (ROW START) -->
+    <div class="row mt-5 w-90 ms-5 me-5">
+        <h5 class="header text-danger">ALL CATEGORIES</h5>
+        <hr>
+        <!-- COL-LEFT START -->
+        <div class="col-3 mt-4 fw-light">
+            <h6>Ram</h6>
+            <div class="col-4 row-1">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">8GB</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">16GB</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">32GB</label>
+                </div>
+            </div>
+            <div class="col-4 row-2 mt-4">
+                <h6>Brand</h6> 
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">Casper</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">Apple</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">Toshiba</label>
+                </div>
+            </div> 
+            <div class="col-4 row-3 mt-4">
+                <h6>Type</h6> 
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">Intel Core i7</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">Intel Core i5</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">Intel Core i3</label>
+                </div>
+            </div>
+            <div class="col-4 row-4 mt-4">
+                <h6>Price</h6> 
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">500-700 chf</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">700-900 chf</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">900-1500 chf</label>
+                </div>
+            </div>
+            <div class="col-4 row-5 mt-4">
+                <h6>Screen</h6> 
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">14 in</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">15,6 in</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">17,3 in</label>
+                </div>
+            </div>  
+            
+        </div>
+        <!-- COL-LEFT END -->
+
+        <!-- COL-RIGHT START -->
+        <div class="col-9 d-flex flex-wrap text-center">
+            <!-- CARD-1 START -->
+            <div class="card me-4" style="width: 18rem;">
+                <img src="./images/s-l640.jpeg" class="card-img-top mt-4" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Lenova E15 Amd Ryzen5</h5>
+                    <p class="card-text fw-light">Some quick example text to. </p>
+                </div>
+                <ul class="list-group list-group-flush fw-light">
+                    <li class="list-group-item text-danger"><s>1599 chf</s></li>
+                    <li class="list-group-item">1399 chf</li>
+                </ul>
+                <div class="card-body">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                    <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg> Add to Card
+                    </button>
+      
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h1 class="modal-title fs-5" id="exampleModalLabel">My Cart</h1>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                        <div class="modal-body text-start fw-lighter">There are 2 products in your cart.</div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Payment</button>
+                        </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- CARD-1 END -->
+
+            <!-- CARD-2 START -->
+            <div class="card me-4" style="width: 18rem;">
+                <img src="./images/s-l640.jpeg" class="card-img-top mt-4" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Lenova E15 Amd Ryzen5</h5>
+                    <p class="card-text fw-light">Some quick example text to.</p>
+                </div>
+                <ul class="list-group list-group-flush fw-light">
+                    <li class="list-group-item text-danger"><s>1599 chf</s></li>
+                    <li class="list-group-item">1399 chf</li>
+                </ul>
+                <div class="card-body">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg> Add to Card
+                        </button>
+          
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">My Cart</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                            <div class="modal-body text-start fw-lighter">There are 2 products in your cart.</div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Payment</button>
+                            </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <!-- CARD-2 END -->
+
+            <!-- CARD-3 START -->
+            <div class="card me-4" style="width: 18rem;">
+                <img src="./images/s-l640.jpeg" class="card-img-top mt-4" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Lenova E15 Amd Ryzen5</h5>
+                    <p class="card-text fw-light">Some quick example text to.</p>
+                </div>
+                <ul class="list-group list-group-flush fw-light">
+                    <li class="list-group-item text-danger"><s>1599 chf</s></li>
+                    <li class="list-group-item">1399 chf</li>
+                </ul>
+                <div class="card-body">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg> Add to Card
+                        </button>
+          
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">My Cart</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                            <div class="modal-body text-start fw-lighter">There are 2 products in your cart.</div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Payment</button>
+                            </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <!-- CARD-3 END -->
+
+            <!-- CARD-4 START -->
+            <div class="card mt-4 me-4" style="width: 18rem;">
+                <img src="./images/s-l640.jpeg" class="card-img-top mt-4" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Lenova E15 Amd Ryzen5</h5>
+                    <p class="card-text fw-light">Some quick example text to.</p>
+                </div>
+                <ul class="list-group list-group-flush fw-light">
+                    <li class="list-group-item text-danger"><s>1599 chf</s></li>
+                    <li class="list-group-item">1399 chf</li>
+                </ul>
+                <div class="card-body">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg> Add to Card
+                        </button>
+          
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">My Cart</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                            <div class="modal-body text-start fw-lighter">There are 2 products in your cart.</div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Payment</button>
+                            </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <!-- CARD-4 END -->
+        </div>
+        <!-- COL-RIGHT END -->
+    </div>
+    <!-- MAIN(ROW) END -->
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+</html>
